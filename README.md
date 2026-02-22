@@ -30,7 +30,7 @@ No build step. Edit `public/index.html` directly and open in a browser.
 For a local Cloudflare Workers preview:
 
 ```bash
-npx wrangler dev
+npx wrangler dev --port 8787
 ```
 
 ---
