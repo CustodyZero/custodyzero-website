@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div class="legal-page">
+  <div class="legal-page__inner">
+
+    <nav class="legal-breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">{{ .Title }}</span>
+    </nav>
+
+    <header class="legal-page__header">
+      <h1 class="legal-page__title">{{ .Title }}</h1>
+      {{ with .Description }}
+      <p class="legal-page__desc">{{ . }}</p>
+      {{ end }}
+    </header>
+
+    <div class="legal-page__grid">
+
+      <div class="legal-page__body prose">
+        {{ .Content }}
+      </div>
+
+      {{- if .TableOfContents }}
+      <aside class="legal-toc" aria-label="Table of contents">
+        <p class="legal-toc__title">On this page</p>
+        {{ .TableOfContents }}
+      </aside>
+      {{- end }}
+
+    </div>
+
+  </div>
+</div>
+{{ end }}

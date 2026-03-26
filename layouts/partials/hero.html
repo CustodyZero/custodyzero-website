@@ -1,0 +1,118 @@
+<style>
+/* ── HERO — scoped styles ────────────────────────────────────── */
+
+.hero {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 8rem 3rem 6rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Geometric grid lines */
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, var(--border) 1px, transparent 1px),
+    linear-gradient(180deg, var(--border) 1px, transparent 1px);
+  background-size: 80px 80px;
+  opacity: 0.3;
+  mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
+  pointer-events: none;
+}
+
+.hero-glow {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(212,136,10,0.08) 0%, transparent 70%);
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  width: 100%;
+}
+
+.hero-eyebrow {
+  font-size: 0.68rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-bottom: 2rem;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 0.2s;
+}
+
+.hero h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(4rem, 10vw, 9rem);
+  line-height: 0.95;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 0.4s;
+}
+
+.hero h1 em {
+  font-style: normal;
+  color: var(--amber);
+  display: block;
+}
+
+.hero-sub {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 300;
+  color: var(--text);
+  max-width: 540px;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 0.6s;
+}
+
+.hero-divider {
+  width: 48px;
+  height: 1px;
+  background: var(--amber);
+  margin-bottom: 3rem;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 0.7s;
+}
+
+.hero-cta-group {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 0.8s;
+}
+
+@media (max-width: 768px) {
+  .hero { padding: 7rem 1.5rem 5rem; }
+}
+</style>
+
+<section class="hero" aria-labelledby="hero-headline">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <p class="hero-eyebrow">A product house for people who shouldn't have to choose</p>
+    <h1 id="hero-headline">The capability<em>is yours.</em></h1>
+    <div class="hero-divider" aria-hidden="true"></div>
+    <p class="hero-sub">Powerful technology that stays where it belongs. On your hardware. Under your rules. Out of everyone else's hands.</p>
+    <div class="hero-cta-group">
+      <a href="/products/" class="btn-primary">What we build</a>
+      <a href="/philosophy/" class="btn-ghost">Our philosophy →</a>
+    </div>
+  </div>
+</section>

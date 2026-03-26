@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1128" height="191" viewBox="0 0 1128 191">
+  <rect width="1128" height="191" fill="#0a0a0a"/>
+
+  <!-- Grid lines — matches hero pattern -->
+  <g opacity="0.15" stroke="#242424" stroke-width="1">
+    <line x1="80" y1="0" x2="80" y2="191"/>
+    <line x1="160" y1="0" x2="160" y2="191"/>
+    <line x1="240" y1="0" x2="240" y2="191"/>
+    <line x1="320" y1="0" x2="320" y2="191"/>
+    <line x1="400" y1="0" x2="400" y2="191"/>
+    <line x1="480" y1="0" x2="480" y2="191"/>
+    <line x1="560" y1="0" x2="560" y2="191"/>
+    <line x1="640" y1="0" x2="640" y2="191"/>
+    <line x1="720" y1="0" x2="720" y2="191"/>
+    <line x1="800" y1="0" x2="800" y2="191"/>
+    <line x1="880" y1="0" x2="880" y2="191"/>
+    <line x1="960" y1="0" x2="960" y2="191"/>
+    <line x1="1040" y1="0" x2="1040" y2="191"/>
+    <line x1="0" y1="80" x2="1128" y2="80"/>
+    <line x1="0" y1="160" x2="1128" y2="160"/>
+  </g>
+
+  <!-- Amber glow — barely perceptible warmth -->
+  <ellipse cx="564" cy="95" rx="400" ry="140" fill="#d4880a" opacity="0.015"/>
+
+  <!-- Tagline -->
+  <text x="564" y="88" text-anchor="middle" font-family="'Bebas Neue', 'Arial Black', sans-serif" font-size="28" letter-spacing="8" fill="#f2f2ec" opacity="0.9">LOCAL-FIRST INSTRUMENTS</text>
+  <text x="564" y="122" text-anchor="middle" font-family="'Bebas Neue', 'Arial Black', sans-serif" font-size="28" letter-spacing="8" fill="#d4880a" opacity="0.9">ZERO CUSTODY</text>
+
+  <!-- Bottom amber rule -->
+  <rect x="0" y="189" width="1128" height="2" fill="#d4880a" opacity="0.6"/>
+</svg>

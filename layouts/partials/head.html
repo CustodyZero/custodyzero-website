@@ -1,0 +1,45 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.tagline }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+{{ $description := .Description | default .Site.Params.description }}
+{{ with $description }}<meta name="description" content="{{ . }}" />{{ end }}
+
+<!-- Canonical -->
+<link rel="canonical" href="{{ .Permalink }}" />
+
+<!-- Favicons -->
+<link rel="icon" type="image/svg+xml" href="/custodyzero-icon-dark.svg" />
+<link rel="icon" type="image/x-icon" href="/custodyzero-icon-dark.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+<!-- Open Graph -->
+{{ $ogImage := .Params.ogImage | default .Site.Params.ogImage }}
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}" />
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.tagline }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}" />
+<meta property="og:description" content="{{ $description }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+{{ with $ogImage }}
+<meta property="og:image" content="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+{{ end }}
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.tagline }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}" />
+<meta name="twitter:description" content="{{ $description }}" />
+{{ with $ogImage }}
+<meta name="twitter:image" content="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}" />
+{{ end }}
+
+<!-- Theme CSS -->
+{{ $themeCSS := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $themeCSS.RelPermalink }}" integrity="{{ $themeCSS.Data.Integrity }}" />
+
+<!-- CustodyZero brand tokens — loaded after theme CSS, overrides tokens via cascade -->
+{{ $overrides := resources.Get "css/overrides.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $overrides.RelPermalink }}" integrity="{{ $overrides.Data.Integrity }}" />
+
+{{ hugo.Generator }}

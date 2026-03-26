@@ -1,0 +1,86 @@
+<style>
+/* ── MANIFESTO — scoped styles ───────────────────────────────── */
+
+.manifesto {
+  padding: 8rem 3rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4rem;
+  align-items: start;
+  border-top: 1px solid var(--border);
+}
+
+.manifesto-label {
+  font-size: 0.65rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--amber);
+  padding-top: 0.4rem;
+  position: sticky;
+  top: 8rem;
+}
+
+.manifesto-body h2 {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  font-weight: 300;
+  color: var(--white);
+  line-height: 1.25;
+  margin-bottom: 2rem;
+}
+
+.manifesto-body h2 strong {
+  font-weight: 400;
+  font-style: italic;
+  color: var(--amber);
+}
+
+.manifesto-body p {
+  color: var(--text);
+  margin-bottom: 1.4rem;
+  max-width: 580px;
+  font-size: 0.95rem;
+}
+
+.manifesto-body p:last-child { margin-bottom: 0; }
+
+.manifesto-callout {
+  margin-top: 3rem;
+  border-left: 2px solid var(--amber);
+  padding-left: 1.5rem;
+}
+
+.manifesto-callout p {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--light);
+  line-height: 1.5;
+  margin-bottom: 0;
+  max-width: none;
+}
+
+@media (max-width: 768px) {
+  .manifesto {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 5rem 1.5rem;
+  }
+  .manifesto-label { position: static; }
+}
+</style>
+
+<section class="manifesto" aria-label="The deal">
+  <div class="manifesto-label reveal">The deal</div>
+  <div class="manifesto-body reveal">
+    <h2>The deal was never <strong>fair.</strong></h2>
+    <p>Powerful technology arrived with fine print. Your home security works — and sends your footage to someone else's cloud. Your AI agents coordinate — and no one really knows how. Your smart devices learn your patterns — and so does every company behind them.</p>
+    <p>The industry called this progress. We call it a bad trade.</p>
+    <p>CustodyZero builds powerful technology that stays where it belongs. On your hardware. Under your rules. Out of everyone else's hands.</p>
+    <div class="manifesto-callout">
+      <p>No decisions you didn't authorize. No data you didn't choose to share. No capability that requires surrendering control to get it.</p>
+    </div>
+  </div>
+</section>

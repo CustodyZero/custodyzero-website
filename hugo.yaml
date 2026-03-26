@@ -1,0 +1,63 @@
+baseURL: https://custodyzero.com
+languageCode: en-us
+title: CustodyZero
+theme: hugo-theme-operator
+
+params:
+  description: "CustodyZero builds edge-native, local-first technology. Your hardware. Your rules. Your data stays yours."
+  tagline: "The capability is yours. The data is yours."
+  domain: custodyzero.com
+
+  # OG / Social
+  ogImage: /images/social-card.png
+  twitterCard: summary_large_image
+
+  # Footer
+  footerText: "Built for people who shouldn't have to choose."
+
+  # Custom CSS — loaded via Hugo pipes in head.html override
+  customCSS: ["css/overrides.css"]
+
+# Sitemap
+sitemap:
+  changefreq: weekly
+  priority: 0.5
+
+# Taxonomies
+taxonomies:
+  tag: tags
+  category: categories
+
+# Markup
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+  highlight:
+    style: github
+
+# Build
+build:
+  writeStats: true
+
+# Minify
+minify:
+  disableCSS: false
+  disableHTML: false
+  disableJS: false
+
+# Main menu
+menu:
+  main:
+    - name: Products
+      url: /products/
+      weight: 10
+    - name: Open Source
+      url: /open-source/
+      weight: 20
+    - name: Philosophy
+      url: /philosophy/
+      weight: 30
+    - name: About
+      url: /about/
+      weight: 40

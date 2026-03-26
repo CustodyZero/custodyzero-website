@@ -1,0 +1,61 @@
+<footer class="site-footer">
+  <div class="site-footer__inner">
+
+    <div class="site-footer__top">
+
+      <!-- Brand column -->
+      <div class="site-footer__brand">
+        <a href="{{ "/" | relURL }}" class="site-footer__logo" aria-label="{{ .Site.Title }}">
+          <span class="site-footer__wordmark">Custody<span class="site-footer__wordmark-accent">Zero</span></span>
+        </a>
+        <p class="site-footer__tagline">{{ .Site.Params.footerText }}</p>
+      </div>
+
+      <!-- Products -->
+      <div class="site-footer__col">
+        <span class="site-footer__col-title">Products</span>
+        <ul class="site-footer__links" role="list">
+          <li><a href="{{ "/factory/" | relURL }}">Factory</a></li>
+          <li><a href="{{ "/archon/" | relURL }}">Archon</a></li>
+          <li><a href="{{ "/type/" | relURL }}">Type</a></li>
+        </ul>
+      </div>
+
+      <!-- Open Source -->
+      <div class="site-footer__col">
+        <span class="site-footer__col-title">Open Source</span>
+        <ul class="site-footer__links" role="list">
+          <li><a href="https://github.com/CustodyZero/Factory" rel="noopener">Factory</a></li>
+          <li><a href="https://github.com/CustodyZero/Archon" rel="noopener">Archon</a></li>
+        </ul>
+      </div>
+
+      <!-- Company -->
+      <div class="site-footer__col">
+        <span class="site-footer__col-title">Company</span>
+        <ul class="site-footer__links" role="list">
+          <li><a href="{{ "/about/" | relURL }}">About</a></li>
+          <li><a href="{{ "/philosophy/" | relURL }}">Philosophy</a></li>
+          <li><a href="{{ "/contact/" | relURL }}">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Legal -->
+      <div class="site-footer__col">
+        <span class="site-footer__col-title">Legal</span>
+        <ul class="site-footer__links" role="list">
+          <li><a href="{{ "/privacy/" | relURL }}">Privacy Policy</a></li>
+          <li><a href="{{ "/terms/" | relURL }}">Terms of Service</a></li>
+          <li><a href="{{ "/refunds/" | relURL }}">Refunds &amp; Cancellation</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="site-footer__bottom">
+      <span class="site-footer__legal">&copy; {{ now.Year }} Plainsight Systems LLC. All rights reserved.</span>
+      <span class="site-footer__domain">custodyzero.com</span>
+    </div>
+
+  </div>
+</footer>
