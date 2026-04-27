@@ -1,10 +1,10 @@
 ---
 title: "Terms of Service"
 description: "The terms that govern your use of CustodyZero, its products, and its services — including early access programs, subscriptions, hardware, and acceptable use."
-date: 2026-03-26
+date: 2026-04-26
 ---
 
-*Last updated: March 2026*
+*Last updated: April 26, 2026*
 
 ## Agreement to Terms
 
@@ -103,9 +103,9 @@ Our collection and use of personal data is described in our [Privacy Policy](/pr
 
 ## Governing Law
 
-These Terms are governed by the laws of the State of Delaware, United States, without regard to its conflict of law principles.
+These Terms are governed by the laws of the State of Arizona, United States, without regard to its conflict of law principles.
 
-Any legal action or proceeding arising under these Terms will be brought exclusively in the federal or state courts located in Delaware, and the parties hereby irrevocably consent to the personal jurisdiction and venue therein. This does not apply where applicable consumer protection law in your jurisdiction requires application of another law or grants you the right to bring a claim in another jurisdiction.
+Any legal action or proceeding arising under these Terms will be brought exclusively in the state or federal courts located in Maricopa County, Arizona, and the parties hereby irrevocably consent to the personal jurisdiction and venue therein. This does not apply where applicable consumer protection law in your jurisdiction requires application of another law or grants you the right to bring a claim in another jurisdiction.
 
 ## Contact
 

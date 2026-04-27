@@ -11,14 +11,25 @@ We build instruments, not platforms. You buy it. It is yours. It does not stop w
 
 ## What we build
 
-**Open source:**
+**Active and shipping:**
 
-- **[Factory](/factory/)** --- a change-control system for AI-assisted development. Every change declares its intent. Every acceptance is risk-proportional. Apache 2.0.
-- **[Archon](/archon/)** --- a deterministic coordination layer for local AI agents. Operator-defined rules, enforced. Every action validated before execution. Apache 2.0.
+- **[Factory](/factory/)** --- a change-control system for AI-assisted development. Every change declares its intent. Every acceptance is risk-proportional. Every decision auditable. Apache 2.0.
 
-**Proprietary:**
+**In early testing:**
 
-- **[Type](/type/)** --- a writing instrument for long-form writers and theorists. Local-first. LLM-assisted. Your words, your machine, your control. In development.
+- **[Type](/type/)** --- a writing instrument for long-form writers and theorists. Local-first, perpetually licensed, with an editorial LLM assistant that proposes edits without capturing the operator's text.
+
+**In development:**
+
+- **Valet** --- a resident, local-running assistant that learns its operator over time. Continuous inference on user-owned hardware; persistent memory routes through storage the operator already controls.
+
+**In research:**
+
+- **StationZero** --- a home edge automation platform. First scope is WiFi camera surveillance on local-storage-capable cameras running on a user-owned compute node, with a phased roadmap into adversarial detection, device control, and whole-home automation.
+
+**Inactive (Apache 2.0 release remains available):**
+
+- **[Archon](/archon/)** --- a deterministic coordination layer for local AI agents. Currently inactive; the Apache 2.0 release at [github.com/CustodyZero/archon](https://github.com/CustodyZero/archon) remains available.
 
 ## The constraint
 
@@ -28,6 +39,6 @@ This is not a differentiator. It is a constraint on everything we build, everyth
 
 ## The company
 
-CustodyZero is operated by Plainsight Systems LLC.
+CustodyZero is an operating brand of **Plainsight Systems LLC**, a Limited Liability Company registered in the State of Arizona, United States. The full corporate identity layer is published at [plainsight-systems.com](https://plainsight-systems.com).
 
 [Contact us](/contact/) -- we read everything.

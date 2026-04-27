@@ -90,3 +90,12 @@ For refund and cancellation requests: **support@custodyzero.com**
 For billing disputes: **support@custodyzero.com**
 
 We aim to respond to all requests within 1 business day.
+
+---
+
+CustodyZero is an operating brand of **Plainsight Systems LLC**. Postal address for refund-related correspondence:
+
+Plainsight Systems LLC  
+11240 N 19th Ave, Suite 22 PMB 1072  
+Phoenix, AZ 85029-4825  
+USA
