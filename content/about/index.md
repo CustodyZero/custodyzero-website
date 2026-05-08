@@ -1,35 +1,30 @@
 ---
 title: "About"
-description: "CustodyZero builds local-first instruments. Your hardware. Your rules. Zero custody."
+description: "CustodyZero builds local-first instruments. On your hardware. Under your rules. Out of everyone else's hands."
 ---
 
 ## What CustodyZero is
 
-CustodyZero is a product house that builds local-first technology. Every product runs on your hardware, under your control, without requiring you to send your data to our servers or any third-party cloud.
+CustodyZero builds local-first instruments. On your hardware. Under your rules. Out of everyone else's hands.
+
+The industry built useful technology on top of a bad trade: capability in exchange for data. Smart-home hubs work — and send your footage upstream. AI agents coordinate — and no one knows exactly how. Smart devices learn your patterns — and so does every company behind them.
+
+CustodyZero's answer is that the trade is not necessary. Capability and custody are not in conflict. Every instrument we ship runs on the operator's hardware, under the operator's rules, with no required cloud dependency for core function.
 
 We build instruments, not platforms. You buy it. It is yours. It does not stop working.
 
 ## What we build
 
-**Active and shipping:**
+Four instruments, each at a different phase:
 
-- **[Factory](/factory/)** --- a change-control system for AI-assisted development. Every change declares its intent. Every acceptance is risk-proportional. Every decision auditable. Apache 2.0.
+- **[Type](/type/)** — a local-first writing instrument with contextual LLM assistance for long-form work. The editor reads with you, not for you. **Alpha testing.**
+- **[Valet](/valet/)** — a lifelong personal intelligence that runs on your hardware. Learns you over time; memory lives in the cloud storage you already use (Drive, iCloud, OneDrive) or on your local disk; unlimited local inference. **In development.**
+- **[StationZero](/stationzero/)** — edge-native home safety. Watches the people in your home and knows when to stay quiet, when to notify, and when to escalate to emergency. The model runs on hardware you own. **Design and validation.**
+- **[Factory](/factory/)** — a change-control system for governed AI-assisted development. Intent and scope are declared before implementation; build, lint, and test gate every completion. **Live and continuously updated.**
 
-**In early testing:**
+Each shares the same architectural posture: edge compute, perpetual license, security patches free for supported versions, no vendor lock-in built into the runtime.
 
-- **[Type](/type/)** --- a writing instrument for long-form writers and theorists. Local-first, perpetually licensed, with an editorial LLM assistant that proposes edits without capturing the operator's text.
-
-**In development:**
-
-- **Valet** --- a resident, local-running assistant that learns its operator over time. Continuous inference on user-owned hardware; persistent memory routes through storage the operator already controls.
-
-**In research:**
-
-- **StationZero** --- a home edge automation platform. First scope is WiFi camera surveillance on local-storage-capable cameras running on a user-owned compute node, with a phased roadmap into adversarial detection, device control, and whole-home automation.
-
-**Inactive (Apache 2.0 release remains available):**
-
-- **[Archon](/archon/)** --- a deterministic coordination layer for local AI agents. Currently inactive; the Apache 2.0 release at [github.com/CustodyZero/archon](https://github.com/CustodyZero/archon) remains available.
+**Inactive:** [Archon](/archon/) — a deterministic coordination layer for local AI agents. The Apache 2.0 release at [github.com/CustodyZero/Archon](https://github.com/CustodyZero/Archon) remains available.
 
 ## The constraint
 
@@ -41,4 +36,6 @@ This is not a differentiator. It is a constraint on everything we build, everyth
 
 CustodyZero is an operating brand of **Plainsight Systems LLC**, a Limited Liability Company registered in the State of Arizona, United States. The full corporate identity layer is published at [plainsight-systems.com](https://plainsight-systems.com).
 
-[Contact us](/contact/) -- we read everything.
+Sibling operating brands: [Appario](https://getappario.com), [PlainSight Lab](https://www.plainsightlab.com/).
+
+[Contact us](/contact/) — we read everything.

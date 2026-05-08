@@ -1,6 +1,7 @@
 ---
 title: "Type"
 description: "A writing instrument for long-form writers and theorists. Local-first. LLM-assisted. Your words, your machine, your control."
+icon: "/images/products/type-icon-dark.svg"
 ---
 
 ## What Type is
@@ -37,23 +38,13 @@ The Assist is invoked explicitly. No background processing. Predictable cost con
 
 ## The surface
 
-The writing surface is built on the physical metaphor of paper. The page is warm, slightly off-white. The desk beneath is muted stone. The margin line is drawn in faint pencil.
+The writing surface is built on the physical metaphor of paper. A warm page on a muted desk, with a margin reserved for the editor. Display, body, and chrome each have their own role — chrome stays out of the writing.
 
-Three typefaces, each with a defined role:
+The semantic search inside Type is a project-scoped, fully offline index. Nothing about your work leaves your machine unless you explicitly configure an LLM provider.
 
-- **Cormorant** --- display and headings. The voice of titles and structure.
-- **Literata** --- the writing surface. Designed for long reading sessions on screens.
-- **DM Mono** --- chrome and UI. Status bars, sidebars, labels. Never on the writing surface.
+## Phase
 
-## Architecture
-
-The document model is C++20 --- deterministic, with CRDT-ready identifiers designed for eventual collaborative editing. The UI is Avalonia (.NET 9), cross-platform desktop. The build system uses Factory for change control.
-
-Documents are composed of paragraphs containing runs. Formatting is presentational, not semantic. Drafts are intentional milestones, not auto-saves. The semantic store is a custom C++ embedding model with HNSW + BM25 hybrid search, project-scoped and fully offline.
-
-## Status
-
-Type is in active development. It is not yet available for purchase.
+Alpha testing. Not yet available for purchase.
 
 ## Licensing
 

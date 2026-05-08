@@ -4,8 +4,8 @@ title: CustodyZero
 theme: hugo-theme-operator
 
 params:
-  description: "CustodyZero builds edge-native, local-first technology. Your hardware. Your rules. Your data stays yours."
-  tagline: "The capability is yours. The data is yours."
+  description: "CustodyZero builds local-first instruments. On your hardware. Under your rules. Out of everyone else's hands."
+  tagline: "Local-first instruments. On your hardware. Under your rules."
   domain: custodyzero.com
 
   # OG / Social
@@ -13,7 +13,7 @@ params:
   twitterCard: summary_large_image
 
   # Footer
-  footerText: "Built for people who shouldn't have to choose."
+  footerText: "Local-first instruments. On your hardware. Under your rules."
 
   # Custom CSS — loaded via Hugo pipes in head.html override
   customCSS: ["css/overrides.css"]

@@ -1,6 +1,7 @@
 ---
 title: "Factory"
 description: "A change-control system for AI-assisted development. Every change declares its intent. Every acceptance is risk-proportional."
+icon: "/images/products/factory-icon-dark.svg"
 ---
 
 ## What Factory is
@@ -15,17 +16,6 @@ Factory is not a project management tool. It is not a CI pipeline. It is not a c
 
 Factory governs the boundary between "implemented" and "accepted." Everything before that boundary is the implementer's problem. Everything after it is the operator's decision.
 
-## How it works
-
-The system uses six artifact types stored as JSON files:
-
-- **Packets** define work units with scope and rationale
-- **Completions** provide implementation evidence with verification results
-- **Acceptances** record human approval
-- **Rejections** audit reversals of auto-accepted changes
-- **Evidence** documents satisfied environment dependencies
-- **Features** decompose high-level intents into ordered packets
-
 ## Risk-proportional acceptance
 
 Changes flow through four categories with corresponding approval paths:
@@ -37,11 +27,13 @@ Changes flow through four categories with corresponding approval paths:
 
 The risk classification determines the process. Not the implementer. Not the reviewer. The classification.
 
-## Invariants
+## Invariants, not guidelines
 
-Factory maintains ten formal invariants covering artifact integrity, acceptance rules, execution governance, and structural consistency. These include protections against cyclic dependencies and orphaned records.
+A guideline asks you to behave well. An invariant guarantees the system cannot violate it. Factory's rules — about who can accept what, about what must be true before a change is accepted, about what cannot be deleted once it is referenced — are enforced by the system, not by convention.
 
-Invariants are not guidelines. They are structural constraints enforced by the system.
+## Phase
+
+Live and continuously updated.
 
 ## License
 

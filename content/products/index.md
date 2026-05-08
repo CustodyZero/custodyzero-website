@@ -1,30 +1,54 @@
 ---
 title: "Products"
-description: "Everything CustodyZero builds. Open source and proprietary instruments, all local-first."
+description: "What CustodyZero ships, by phase. Local-first instruments. On your hardware. Under your rules."
 ---
 
-## Open source
+CustodyZero ships four instruments. Each shares the same architectural posture: edge compute, perpetual license, security patches free for supported versions, no required cloud dependency for core function.
 
-Systems where auditability matters more than commercial control. Apache 2.0.
+---
 
-### [Factory](/factory/)
+## [Type](/type/)
 
-A change-control system for AI-assisted development. Factory separates AI implementation from human acceptance decisions. Every change declares its intent and scope upfront. Acceptance criteria are determined by risk classification, not implementer preference.
+A local-first writing instrument with contextual LLM assistance for long-form work. The editor reads with you, not for you. Project directory lives where you put it — local disk, iCloud, Google Drive, OneDrive. The Assist is invoked explicitly. No background processing.
+
+**Phase:** Alpha testing.
+
+---
+
+## [Valet](/valet/)
+
+A lifelong personal intelligence that runs on your hardware. Learns you over time. Memory lives in the cloud storage you already use — Drive, iCloud, OneDrive — or on your local disk. Unlimited local inference.
+
+**Phase:** In development.
+
+---
+
+## [StationZero](/stationzero/)
+
+Edge-native home safety. StationZero watches the people in your home and knows the difference between stay-quiet, notify, and escalate. The model runs on hardware you own. Live feeds, recording, and detection work without a cloud account. Bring-your-own-hardware.
+
+**Phase:** Design and validation.
+
+---
+
+## [Factory](/factory/)
+
+A change-control system for governed AI-assisted development. Intent and scope are declared before implementation. Build, lint, and test gate every completion. Risk-proportional acceptance: trivial auto-accepts, architectural requires explicit human approval. Ten formal invariants, structurally enforced.
+
+**Phase:** Live and continuously updated. Apache 2.0.
+
+[GitHub](https://github.com/CustodyZero/Factory)
+
+---
+
+## Legacy
 
 ### [Archon](/archon/)
 
-A deterministic coordination layer for local AI agents. Archon enforces operator-defined rules, validates actions before execution, and logs all decisions locally. No emergent behavior. No drift. No surprises.
+A deterministic coordination layer for local AI agents. Operator-defined rules, enforced. Every action validated before execution.
+
+**Phase:** Inactive. The Apache 2.0 release at [github.com/CustodyZero/Archon](https://github.com/CustodyZero/Archon) remains available.
 
 ---
 
-## Proprietary
-
-Instruments you buy and own. Perpetual license. Local-first. No kill switches.
-
-### [Type](/type/)
-
-A writing instrument for long-form writers and theorists. Type combines a rich document editor with an LLM-powered editorial assistant that reads your work and offers suggestions in the margin. Local-first. Your words, your machine, your control. In development.
-
----
-
-All CustodyZero products --- open source and proprietary --- run on your hardware, under your control. The [philosophy](/philosophy/) is the same across the entire portfolio.
+Same architecture across the active four: edge compute, perpetual license, no required cloud dependency for core function. The [philosophy](/philosophy/) is the same across the entire portfolio.

@@ -9,6 +9,9 @@
     </nav>
 
     <header class="legal-page__header">
+      {{ with .Params.icon }}
+      <img class="page-product-icon" src="{{ . | relURL }}" alt="" aria-hidden="true" width="56" height="56">
+      {{ end }}
       <h1 class="legal-page__title">{{ .Title }}</h1>
       {{ with .Description }}
       <p class="legal-page__desc">{{ . }}</p>

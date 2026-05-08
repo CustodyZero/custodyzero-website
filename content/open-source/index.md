@@ -30,7 +30,7 @@ License: Apache 2.0
 
 ## Archon
 
-**A deterministic coordination layer for local AI agents.**
+**A deterministic coordination layer for local AI agents. Inactive.**
 
 Archon enforces operator-defined rules, validates actions before execution, and logs all decisions locally. It does not send agent activity data to CustodyZero or any third party.
 
@@ -40,6 +40,8 @@ The coordination layer that governs your agents should be auditable. That is the
 - Deterministic rule enforcement
 - Every decision logged and inspectable
 - Local-first, no cloud dependency
+
+**Phase:** Inactive. The Apache 2.0 release remains available; the project is not under active development.
 
 License: Apache 2.0
 

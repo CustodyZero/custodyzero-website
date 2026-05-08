@@ -1,7 +1,10 @@
 ---
 title: "Archon"
 description: "A deterministic coordination layer for local AI agents. Operator-defined rules, enforced. Every action validated before execution."
+icon: "/images/products/archon-icon-dark.svg"
 ---
+
+> **Phase: Inactive.** Archon is no longer in active development. The Apache 2.0 release at [github.com/CustodyZero/Archon](https://github.com/CustodyZero/Archon) remains available. Current CustodyZero work focuses on [Type](/type/), [Valet](/valet/), [StationZero](/stationzero/), and [Factory](/factory/).
 
 ## What Archon is
 
