@@ -1,45 +1,34 @@
 ---
-title: "Refund & Cancellation Policy"
-description: "CustodyZero's refund and cancellation terms for software subscriptions, hardware products, and early access programmes."
-date: 2026-03-26
+title: "Refund & Return Policy"
+description: "CustodyZero's refund and return terms for software products and hardware."
+date: 2026-05-30
 ---
 
-*Last updated: March 26, 2026*
+*Last updated: May 30, 2026*
 
-This policy explains when refunds are available and how to cancel a CustodyZero subscription or return hardware. It forms part of our [Terms of Service](/terms/).
+This policy explains when refunds are available and how returns work. It forms part of our [Terms of Service](/terms/).
 
 ---
 
-## Early Access — Waitlist and Free Tiers
+## Early Access — Waitlist
 
 Joining the CustodyZero early access waitlist is free. There is no charge and no refund applies. You may remove yourself from the waitlist at any time by emailing support@custodyzero.com.
 
 ---
 
-## Software Subscriptions
+## Software Products
 
-### Cancelling
-
-You can cancel a CustodyZero software subscription at any time:
-
-1. Log in to your account at custodyzero.com.
-2. Go to **Settings → Subscription → Cancel subscription**.
-3. Confirm the cancellation.
-
-You can also cancel by emailing support@custodyzero.com from your registered email address.
-
-### What happens after you cancel
-
-- Cancellation takes effect immediately.
-- We will calculate the number of days remaining in your current billing period and refund that amount to your original payment method.
-- Example: if your monthly cycle is 30 days and you cancel on day 10, you receive a refund for 20 days (20 ÷ 30 × subscription price).
-- Refunds are issued within 5–10 business days and appear on your original payment method.
+CustodyZero software is sold as one-time purchases per version. There is no subscription. When you buy a CustodyZero software product, you own that version — it works without recurring payment, and you receive updates to that version as they ship.
 
 ### One-time digital purchases
 
-Digital products (such as a one-time software licence or report) are delivered immediately on purchase. Because delivery is complete at the moment the product is made available in your account, **one-time digital purchases are non-refundable after delivery**.
+Software is delivered immediately on purchase. Because delivery is complete the moment the product is made available in your account, **one-time digital purchases are non-refundable after delivery**.
 
 **Exception — technical failure**: if a technical problem on our end prevents delivery, contact us at support@custodyzero.com within 48 hours of your purchase. We will re-deliver the product or issue a full refund, at your choice.
+
+### Version upgrades
+
+When CustodyZero ships a new major version of a product you own, the upgrade is a separate purchase. Current-version owners receive a discount on the upgrade. Upgrades follow the same delivery and refund terms as initial purchases.
 
 ---
 
@@ -73,7 +62,7 @@ The warranty does not cover:
 
 ## Billing Errors
 
-If you believe you were charged incorrectly — for example, charged after cancellation or charged twice — contact us at support@custodyzero.com within 30 days of the charge. We will review the transaction and issue a correction within 5 business days if an error is confirmed.
+If you believe you were charged incorrectly — for example, charged after a return or charged twice — contact us at support@custodyzero.com within 30 days of the charge. We will review the transaction and issue a correction within 5 business days if an error is confirmed.
 
 ---
 
@@ -85,7 +74,7 @@ All refunds are returned to the original payment method used at the time of purc
 
 ## Contact
 
-For refund and cancellation requests: **support@custodyzero.com**
+For refund and return requests: **support@custodyzero.com**
 
 For billing disputes: **support@custodyzero.com**
 

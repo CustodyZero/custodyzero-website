@@ -36,6 +36,10 @@
   background: var(--border);
 }
 
+.product-grid.product-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .product-card {
   background: var(--dark);
   padding: 2.25rem;
@@ -157,7 +161,8 @@
 }
 
 @media (max-width: 1100px) {
-  .product-grid { grid-template-columns: repeat(2, 1fr); }
+  .product-grid,
+  .product-grid.product-grid-3 { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 768px) {
@@ -171,7 +176,7 @@
     <span class="section-label">What we build</span>
     <h2>The instruments</h2>
   </div>
-  <div class="product-grid">
+  <div class="product-grid product-grid-3">
     {{ range .Params.products }}
     <article class="product-card reveal">
       {{ with .icon }}
@@ -180,11 +185,6 @@
       <div class="product-tag">{{ .tag }}</div>
       <a href="{{ .url }}" class="product-name">{{ .name }}</a>
       <p class="product-desc">{{ .description }}</p>
-      <ul class="product-features" role="list">
-        {{ range .features }}
-        <li>{{ . }}</li>
-        {{ end }}
-      </ul>
       {{ if eq .status "active" }}
       <span class="product-status status-active">{{ .status_label }}</span>
       {{ else }}

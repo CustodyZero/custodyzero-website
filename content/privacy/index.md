@@ -1,10 +1,10 @@
 ---
 title: "Privacy Policy"
 description: "How CustodyZero collects, uses, and protects your personal information. Includes GDPR and CCPA disclosures."
-date: 2026-03-26
+date: 2026-05-30
 ---
 
-*Last updated: March 26, 2026*
+*Last updated: May 30, 2026*
 
 This Privacy Policy explains how Plainsight Systems LLC ("CustodyZero", "we", "us", or "our") collects, uses, and shares information when you use custodyzero.com and any associated applications or services (collectively, the "Services").
 
@@ -14,7 +14,7 @@ Read this policy before submitting any personal information to us. If you disagr
 
 ## 1. Who we are
 
-CustodyZero builds local-first technology. We operate the product house at custodyzero.com, including the Archon agent coordination layer, the Factory change-control system, and the Type writing instrument.
+CustodyZero builds local-first technology. We operate the product house at custodyzero.com, including the Factory change-control system and the Type writing instrument.
 
 **Contact:** privacy@custodyzero.com
 
@@ -45,9 +45,8 @@ If you are in the European Economic Area (EEA) or UK, Plainsight Systems LLC is 
 
 CustodyZero's products are designed around a core principle: your data stays on your hardware.
 
-- **Archon**: all agent coordination, rule enforcement, and decision logging occurs locally. CustodyZero does not receive agent activity, rule configurations, tool call logs, or any data processed by Archon.
 - **Factory**: all change-control artifacts are stored locally in your project directory. CustodyZero does not receive your code, artifacts, or governance decisions.
-- **Type**: all documents, drafts, semantic indexes, and voice files are stored in your project directory on your machine. CustodyZero does not receive your writing, annotations, or LLM interactions. LLM calls go to the provider you configure with your own API keys.
+- **Type**: all documents, drafts, semantic indexes, and voice files are stored in your project directory on your machine. AI processing happens locally on your machine. CustodyZero does not receive your writing, annotations, or any data processed by Type.
 
 We do not collect: precise geolocation, biometric data, health information, government-issued ID numbers, racial or ethnic origin, or any data processed locally by our products.
 
@@ -59,7 +58,7 @@ Your payment card details are entered directly with Stripe and are never transmi
 
 - **Early access and communications**: managing the waitlist, notifying you when products become available.
 - **Delivering the Services**: account management, product access, software updates.
-- **Billing and account management**: processing payments, sending receipts, managing subscriptions.
+- **Billing and account management**: processing payments, sending receipts.
 - **Security and fraud prevention**: detecting abuse, protecting accounts.
 - **Customer support**: responding to questions and resolving issues.
 - **Legal compliance**: meeting our obligations under applicable law.
@@ -94,7 +93,7 @@ Plainsight Systems LLC is based in the United States. If you are located in the 
 
 Where EU or UK law requires a lawful transfer mechanism, we rely on **Standard Contractual Clauses (SCCs)** adopted by the European Commission, both for our own operations and for our processors (including Stripe). You may request a copy of the applicable SCCs by emailing privacy@custodyzero.com.
 
-Note that data processed locally by CustodyZero products (Archon, Factory, Type) is never transferred to us --- it remains on your hardware in your jurisdiction.
+Note that data processed locally by CustodyZero products (Factory, Type) is never transferred to us --- it remains on your hardware in your jurisdiction.
 
 ---
 

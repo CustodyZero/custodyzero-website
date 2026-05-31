@@ -1,10 +1,10 @@
 ---
 title: "Terms of Service"
-description: "The terms that govern your use of CustodyZero, its products, and its services — including early access programs, subscriptions, hardware, and acceptable use."
-date: 2026-04-26
+description: "The terms that govern your use of CustodyZero, its products, and its services — including early access programs, hardware, and acceptable use."
+date: 2026-05-30
 ---
 
-*Last updated: April 26, 2026*
+*Last updated: May 30, 2026*
 
 ## Agreement to Terms
 
@@ -18,11 +18,10 @@ CustodyZero builds local-first technology. Our products are designed to run on y
 
 Current products:
 
-- **Archon** — a deterministic coordination layer for local AI agents. Archon enforces operator-defined rules, validates actions before execution, and logs all decisions locally. It does not send agent activity data to CustodyZero. Open source under Apache 2.0.
 - **Factory** — a change-control system for AI-assisted development. All governance artifacts are stored locally in your project directory. Open source under Apache 2.0.
-- **Type** — a writing instrument for long-form writers and theorists. All documents, drafts, and semantic indexes are stored in your project directory on your machine. LLM calls go to the provider you configure with your own API keys. Proprietary, perpetual license.
+- **Type** — a writing instrument for long-form writers and theorists. All documents, drafts, and semantic indexes are stored in your project directory on your machine. AI processing happens locally on your machine. Proprietary, one-time license per version.
 
-The Services are instruments. CustodyZero does not have visibility into the decisions made by your agents, the documents you write, or any other data processed locally by our products.
+The Services are instruments. CustodyZero does not have visibility into any data processed locally by our products.
 
 ## Early Access Program
 
@@ -38,13 +37,13 @@ CustodyZero reserves the right to suspend or terminate your account at any time 
 
 ## Payments and Billing
 
-We process all payments through Stripe. By purchasing a product or subscription, you agree to provide a valid payment method and authorize us to charge it.
+We process all payments through Stripe. By purchasing a product, you agree to provide a valid payment method and authorize us to charge it.
 
-Specific pricing for proprietary products will be published at the time each product is made available for purchase. Open source products (Archon, Factory) are free to use under their respective licenses. All prices are in US Dollars unless otherwise stated. Applicable taxes may be added based on your billing jurisdiction.
+Specific pricing for proprietary products will be published at the time each product is made available for purchase. Factory is free to use under Apache 2.0. All prices are in US Dollars unless otherwise stated. Applicable taxes may be added based on your billing jurisdiction.
 
 ## Refunds and Cancellations
 
-Our full refund and cancellation policy is described on our [Refunds page](/refunds/).
+Our full refund and return policy is described on our [Refunds page](/refunds/).
 
 ## Hardware Products
 
@@ -55,7 +54,7 @@ When you purchase CustodyZero hardware:
 - **Returns**: hardware may be returned within 30 days of delivery for a full refund, provided it is in original condition. See the [Refunds page](/refunds/) for the return process.
 - **Repairs and replacements**: defective hardware within the warranty period will be repaired or replaced at CustodyZero's option.
 
-CustodyZero hardware is designed to operate without a cloud subscription. Core local processing functions are not gated behind a subscription. Optional cloud-connected features, if offered, will be clearly identified and separately priced.
+CustodyZero hardware is designed to operate without a cloud subscription. No part of hardware functionality is gated behind a recurring payment.
 
 ## Acceptable Use
 
@@ -65,7 +64,6 @@ You agree to use the Services only for lawful purposes. Specifically, you agree 
 - Attempt to reverse-engineer, decompile, scrape, or otherwise extract source code or proprietary methodologies from the Services.
 - Resell or redistribute CustodyZero software or hardware without a written agreement with us.
 - Attempt to circumvent, disable, or interfere with security features of the Services.
-- Use Archon to coordinate agents in ways that cause harm to others, violate applicable law, or exceed the permissions granted to those agents by the operator of the system they interact with.
 
 Violation of these terms may result in immediate suspension or termination of your account and access to the Services.
 
@@ -83,7 +81,7 @@ CustodyZero products may include open source software components. Those componen
 
 The Services are provided on an "as-is" and "as-available" basis, without any warranties of any kind, either express or implied, except as required by law or as stated in a written product warranty.
 
-Plainsight Systems LLC makes no guarantee that: (a) the Services will be uninterrupted, secure, or error-free; (b) Archon's rule enforcement will prevent all unintended agent behaviour in all configurations; or (c) any product's capabilities will perform optimally in all environments and conditions.
+Plainsight Systems LLC makes no guarantee that: (a) the Services will be uninterrupted, secure, or error-free; or (b) any product's capabilities will perform optimally in all environments and conditions.
 
 Local-first design means control stays with you — and so does responsibility for your configuration.
 
