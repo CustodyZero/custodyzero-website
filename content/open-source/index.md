@@ -25,6 +25,30 @@ License: Apache 2.0.
 
 ---
 
+## MCP Servers
+
+**Best-practice corpora made queryable by coding agents.**
+
+We built these because we needed them. AI coding agents work better when they can query authoritative knowledge instead of generating from memory. The workspace is a set of Rust-based Model Context Protocol servers, each fronting one corpus — ISO C++ Core Guidelines, C++ performance techniques, Rust API conventions, Node.js best practices — and returning indexed answers via semantic search.
+
+License: Apache 2.0.
+
+[GitHub](https://github.com/plainsight-systems/mcp-servers)
+
+---
+
+## C++ Performance Guidelines
+
+**The technique layer below the ISO C++ Core Guidelines.**
+
+We built this corpus because we needed it. The ISO C++ Core Guidelines tell you to minimize allocations and access memory predictably — they don't tell you how. This corpus owns the concrete technique layer: custom allocators, hardware-aware data layout, copy/move discipline, object lifetime, embedded constraints, concurrency, codegen, SIMD, and telemetry. Consumable directly, or via the cpp-perf-guidelines MCP server above.
+
+License: Apache 2.0 (code), CC BY 4.0 (corpus content).
+
+[GitHub](https://github.com/plainsight-systems/cpp-perf-guidelines)
+
+---
+
 ## Contributing
 
-The project accepts contributions. Start with the README in the repository. There is no CLA. The license is the agreement.
+These projects accept contributions. Start with the README in each repository. There is no CLA. The license is the agreement.
